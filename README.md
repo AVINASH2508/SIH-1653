@@ -11,16 +11,59 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+Simulated Real-Life Interview Experience:
+
+The platform will allow interviewers to ask dynamic questions that align with the candidate's profile and expertise.
+
+The candidate will respond in a live, real-time manner, whether through text, audio, or video.
+
+The software will allow for interactive dialogue between the candidate and the interviewer, closely mimicking an in-person interview.
+![Blog-Web-application-testing](https://github.com/user-attachments/assets/a90fa663-eacf-4bf6-bac6-0521b1bd4396)
 
 
 ## Proposed Solution / Architecture Diagram
+Frontend (Web Interface):
 
+Interview Dashboard: Provides interviewers and candidates with a platform to conduct and take the interview.
+
+Real-time Question and Answering Interface: The interviewers can pose questions, and candidates can respond in real time.
+
+Scoring System: Interviewers can score responses, and the system will calculate an overall score for the candidate.
 
 ## Use Cases
+Interviewer Role:
 
+Interview Setup: Create a new interview session, select candidate profiles, and initiate a list of relevant questions.
+
+Pose Questions: Ask questions from the system or manually input custom questions.
+
+Score Responses: Score the candidate’s answers based on relevance and quality using a rating scale or automatic system.
+
+Provide Feedback: Leave qualitative feedback for candidates based on performance.
 
 ## Technology Stack
+Frontend:
+
+ReactJS / Vue.js: For building an interactive, responsive UI.
+
+HTML5 / CSS3: For designing the interface.
+
+WebRTC or WebSockets: For real-time audio/video communication between interviewers and candidates.
+
+JavaScript: For interactive elements on the page.
 
 
 ## Dependencies
+Natural Language Processing (NLP) Libraries:
 
+spaCy (for text analysis)
+
+NLTK (for traditional NLP tasks)
+
+transformers (for state-of-the-art language models)
+
+Machine Learning Frameworks:
+
+TensorFlow / PyTorch (for developing and deploying ML models)
+
+Scikit-learn (for simpler ML models or feature extraction)
